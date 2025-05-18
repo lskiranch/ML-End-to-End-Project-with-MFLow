@@ -1,5 +1,7 @@
+from mlProject import logger
+
 def main():
-    print("Hello from mlflow!")
+    logger.info("Hello from mlflow!")
 
 
 if __name__ == "__main__":
