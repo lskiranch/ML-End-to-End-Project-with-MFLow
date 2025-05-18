@@ -1,7 +1,22 @@
 [project]
-name = "mlflow"
+name = "ml-flow"
 version = "0.1.0"
 description = "Add your description here"
 readme = "README.md"
 requires-python = ">=3.12"
-dependencies = []
+dependencies = [
+    "pandas",
+    "mlflow",
+    "notebook",
+    "numpy",
+    "scikit-learn",
+    "matplotlib",
+    "python-box",
+    "pyYAML",
+    "tqdm",
+    "ensure",
+    "joblib",
+    "types-PyYAML",
+    "Flask",
+    "Flask-Cors"
+]
